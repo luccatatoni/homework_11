@@ -48,7 +48,7 @@ It was made:
 Assessment:
 
 * Which model had the best balanced accuracy score?
-The Random Forest Classifier had the best accuracy score (lowest amount of false negatives and false positives)
+> The Random Forest Classifier had the best accuracy score (lowest amount of false negatives and false positives)
 
 * Which model had the best recall score?
 > 1. Random Forest with 0.32 / 1.0 (average 1.0)
@@ -62,14 +62,15 @@ The Random Forest Classifier had the best accuracy score (lowest amount of false
 
 * What are the top three features?
 > For Balanced Random Forest Classifier (for Easy Emsemble Classifier it was not possible to list the features):
+
 > (0.07239290541174957, 'total_rec_prncp'),
-(0.06733303127962115, 'last_pymnt_amnt'),
-(0.06718324331180901, 'total_pymnt_inv'),
-(0.05746049006493996, 'total_pymnt'),
-(0.05259921495573907, 'total_rec_int'),
-(0.029610942008818013, 'int_rate'),
-(0.02204428929077674, 'issue_d_Jan-2019'),
-(0.016566562106507986, 'dti'),
-(0.01635120518538894, 'mo_sin_old_rev_tl_op'),
-(0.01594212905787986, 'out_prncp')]
+> (0.06733303127962115, 'last_pymnt_amnt'),
+> (0.06718324331180901, 'total_pymnt_inv'),
+> (0.05746049006493996, 'total_pymnt'),
+> (0.05259921495573907, 'total_rec_int'),
+> (0.029610942008818013, 'int_rate'),
+> (0.02204428929077674, 'issue_d_Jan-2019'),
+> (0.016566562106507986, 'dti'),
+> (0.01635120518538894, 'mo_sin_old_rev_tl_op'),
+> (0.01594212905787986, 'out_prncp')]
 
