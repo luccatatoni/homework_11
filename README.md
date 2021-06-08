@@ -51,18 +51,18 @@ Assessment:
 The Random Forest Classifier had the best accuracy score (lowest amount of false negatives and false positives)
 
 * Which model had the best recall score?
-1. Random Forest with 0.32 / 1.0 (average 1.0)
-2. Easy Ensemble Classifier with 0.92 / 0.94 (average 0.94 )
-3. Balanced Random Forest with 0.64 / 0.92 (average 0.92)
+> 1. Random Forest with 0.32 / 1.0 (average 1.0)
+> 2. Easy Ensemble Classifier with 0.92 / 0.94 (average 0.94 )
+> 3. Balanced Random Forest with 0.64 / 0.92 (average 0.92)
 
 * Which model had the best geometric mean score?
-1. Easy Emsemble Classifier: 0.93 / 0.93 (average 0.93)
-2. Balanced Random Forest with 0.77 / 0.77 (average 0.77)
-3. Random Forest with 0.56 / 0.56 (average 0.56)
+> 1. Easy Emsemble Classifier: 0.93 / 0.93 (average 0.93)
+> 2. Balanced Random Forest with 0.77 / 0.77 (average 0.77)
+> 3. Random Forest with 0.56 / 0.56 (average 0.56)
 
 * What are the top three features?
-For Balanced Random Forest Classifier (for Easy Emsemble Classifier it was not possible to list the features):
-(0.07239290541174957, 'total_rec_prncp'),
+> For Balanced Random Forest Classifier (for Easy Emsemble Classifier it was not possible to list the features):
+> (0.07239290541174957, 'total_rec_prncp'),
 (0.06733303127962115, 'last_pymnt_amnt'),
 (0.06718324331180901, 'total_pymnt_inv'),
 (0.05746049006493996, 'total_pymnt'),
